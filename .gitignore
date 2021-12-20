@@ -1,0 +1,13 @@
+
+#local modules
+node_modules
+package-lock.json
+
+# test report
+reports
+testcafe-reporter-cucumber-json.json
+cucumber-json-reports
+screenshots
+
+#other
+.DS-Store
