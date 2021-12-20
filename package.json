@@ -1,0 +1,32 @@
+{
+  "name": "craiglist-ui-automation",
+  "version": "1.0.0",
+  "description": "UI Automation for madrid.craiglist.org ",
+  "scripts": {
+    "test:serverdebug": "testcafe --inspect-brk chrome ./tests/*.js",
+    "report": "node report-generator.js",
+    "test:chrome": "testcafe chrome ./tests/*.js -s takeOnFails=true --reporter cucumber-json:reports/report.json --reporter-app-name='craiglist-ui' --reporter-app-version='1.0'; npm run report",
+    "test:firefox": "testcafe firefox ./tests/*.js -s takeOnFails=true --reporter cucumber-json:reports/report.json --reporter-app-name='craiglist-ui' --reporter-app-version='1.0'; npm run report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmrprakash/craiglist-ui.git"
+  },
+  "keywords": [
+    "testcafe", "craiglist.org"
+  ],
+  "author": "Muthu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmrprakash/craiglist-ui/issues"
+  },
+  "homepage": "https://github.com/tmrprakash/craiglist-ui#readme",
+  "dependencies": {
+    "testcafe": "^1.17.1",
+    "dotenv": "^6.1.0",
+    "testcafe-reporter-cucumber-json": "^4.0.0"
+  },
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.13.2"
+  }
+}
