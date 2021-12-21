@@ -57,7 +57,7 @@ upcoming, relevant)
     A typical top-level directory layout
     .
     ├── page-object                   # Abstraction pattern of the tested page
-    ├── readmeImages                  # Documentation supporting files 
+    ├── ReadmeImages                  # Documentation supporting files 
     ├── reports                       # Store generated reports, after the test execution
     ├── resources                     # Load the config used for execution 
     ├── screenshots                   # Store screenshot files for failed tests
