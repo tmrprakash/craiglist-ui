@@ -51,7 +51,7 @@ upcoming, relevant)
     ```
     ./cucumber-json-reports/html/index.html
     ```
-    - ![Test Report](./readmeImages/test_report.png)
+    - ![Test Report](./ReadmeImages/test_report.png)
 
 # Folder Structure
     A typical top-level directory layout
@@ -73,8 +73,8 @@ upcoming, relevant)
 - All test execuction CLI takes screenshot on failures
 #### Refer Test Report Logger
 - Based on the Error logger and screenshot, easily identify the failure reason
-- ![Test Report Logger](./readmeImages/debug_report_logger.png?raw=true "Test Failure Log")
-- ![Test Report Screenshot](./readmeImages/debug_report_screenshot.png?raw=true "Test Report Screenshot")
+- ![Test Report Logger](./ReadmeImages/debug_report_logger.png?raw=true "Test Failure Log")
+- ![Test Report Screenshot](./ReadmeImages/debug_report_screenshot.png?raw=true "Test Report Screenshot")
 #### debug() function
 - Introduce debug() function call before the failure 
     ```
@@ -85,7 +85,7 @@ upcoming, relevant)
     }
     ```
 - While test exectution , it stops on the debugger statement. Browser has the option to Resume / Next Action
-- ![Debug while execution](./readmeImages/debugger_while_execution.png)
+- ![Debug while execution](./ReadmeImages/debugger_while_execution.png)
 
 ### Server Side Debugging
 - Start debug server
@@ -102,6 +102,6 @@ upcoming, relevant)
     ```
 - Navigate to chrome://inspect in Google Chrome. In the Remote Target section, find the Node.js debugger and click Inspect.
 
-- ![Chrome inspect](./readmeImages/chrome-inspect.png)
+- ![Chrome inspect](./ReadmeImages/chrome-inspect.png)
 
 - Chrome will invoke its Developer Tools and the debugger will stop test execution at the first line. Click the Resume script execution button or press F5 to continue. After that, text execution will pause at the debugger keyword allowing you to debug test code.
