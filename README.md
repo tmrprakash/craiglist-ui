@@ -28,7 +28,7 @@ upcoming, relevant)
    ```
 2. Environment Setup
     ```
-    $ git clone https://github.com/tmrprakash/craiglist-ui.
+    $ git clone https://github.com/tmrprakash/craiglist-ui.git
     $ cd craiglist-ui
     $ npm install
     ```
